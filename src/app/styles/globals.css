@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overscroll-behavior: none;
+}
+
+#accueil {
+  width: 100vw;
+  height: 200vh;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#titre {
+  position: absolute;
+  right: 15vw;
+  top: 45vh;
+}
+
+#sous-titre {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 24;
+  position: absolute;
+  right: 10;
+  bottom: 50;
+}
+
+#acheter-button {
+  width: 246;
+  height: 56;
+  font-family: "Inter", sans-serif;
+  border-radius: 44;
+  background-color: transparent;
+  border: solid 1 white;
+  color: white;
+  font-size: 20;
+  position: absolute;
+  bottom: -50vh;
+  right: 15vw;
+  transition-duration: 0.3s;
+}
+
+#acheter-button:hover {
+  color: black;
+  background-color: white;
+  border-color: black;
+  transition-timing-function: linear;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#presentation {
+  height: 120vh;
+  width: 100vw;
+  position: sticky;
+  z-index: -1;
+  margin-top: -400px;
+  font-family: "Inter", sans-serif;
+}
+
+#presentation h1 {
+  font-size: 32;
+}
+
+#description {
+  font-size: 20;
+  width: 554;
+}
+
+#presentation-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50vh;
+}
+
+#aventure {
+  width: 510;
+  height: 280;
+}
+
+#apercu-film {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  justify-content: space-between;
+}
+
+#personnages {
+  background-color: #1f1f1f;
+  height: 150vh;
+  width: 100vw;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+#titre-section-pers {
+  font-size: 32;
+  font-weight: 500;
+  padding-top: 20vh;
+  padding-left: 10vw;
+}

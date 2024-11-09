@@ -1,0 +1,46 @@
+#carousel {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#nomPers {
+  font-size: 64;
+}
+
+#descriptionTitrePers {
+  color: #8d8d8d;
+  font-size: 16;
+}
+
+#right {
+  display: flex;
+}
+
+#right div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#grandeImg {
+  height: 760;
+  width: 410;
+}
+
+.petiteImg {
+  height: 140;
+  width: 140;
+}
+
+#choix {
+  margin-left: 5vw;
+}
+
+#descriptionPers {
+  width: 414;
+  font-size: 16;
+}

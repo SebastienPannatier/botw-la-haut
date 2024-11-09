@@ -10,7 +10,7 @@ body {
 #accueil {
   width: 100vw;
   height: 200vh;
-  background-image: url("../img/background.png");
+  background-image: url("/background.png");
   background-size: cover;
   background-position: center;
 }

@@ -10,13 +10,14 @@ export const Presentation = () => {
             <p>
               Quand Carl, un grincheux de 78 ans, décide de réaliser le rêve de
               sa vie en attachant des milliers de ballons à sa maison pour voler
-              vers l'Amérique du Sud, il ne s'attendait pas à embarquer avec lui
-              Russell, un jeune explorateur de 9 ans, toujours très enthousiaste
-              et assez envahissant...
+              vers l&apos;Amérique du Sud, il ne s&apos;attendait pas à
+              embarquer avec lui Russell, un jeune explorateur de 9 ans,
+              toujours très enthousiaste et assez envahissant...
             </p>
             <p>
               Ce duo totalement imprévisible et improbable va vivre une aventure
-              délirante qui les plongera dans un voyage dépassant l'imagination.
+              délirante qui les plongera dans un voyage dépassant
+              l&apos;imagination.
             </p>
           </div>
           <img id="aventure" src="aventure.png" />

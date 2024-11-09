@@ -18,8 +18,8 @@ const Popup = () => {
     <div className="popup-overlay">
       <div className="popup-content">
         <p>
-          Désolé, j'ai pas eu le temps de faire plus, j'ai bossé dessus samedi
-          seulement
+          Désolé, j&apos;ai pas eu le temps de faire plus, j&apos;ai bossé
+          dessus samedi seulement
         </p>
         <button onClick={handleClose}>Fermer</button>
       </div>
